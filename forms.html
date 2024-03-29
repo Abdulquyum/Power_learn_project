@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Form to register a new student</title>        
+        </head>
+    <body>
+        <h3>Fill in the below form correctly to register</h3>
+            <br>
+                <br>
+
+        <form action="post">
+            <fieldset>
+                <legend for="name">Name:</legend>
+                    <input type="text" id="name" placeholder="Ajumobi Abdulquyum Olanrewaju">
+            </fieldset>
+                    <br>
+
+            <fieldset>
+                <legend for="DOB">Date of birth:</legend>
+                    <input type="date" id="DOB" placeholder="29-03-2024">
+            </fieldset>
+                    <br>
+
+            <fieldset>
+                <legend for="gender">Gender:</legend>
+                    <input type="radio" name="gender" value="gender">
+                        <label for="gender">Male</label>
+                            <input type="radio" name="gender" value="gender">
+                        <label for="gender">Female</label>
+                    <input type="radio" name="gender" value="gender">
+                <label for="gender">Others</label>
+            </fieldset>
+                    <br>
+
+            <label for="address">Address: </label>
+                <input type="text" name="address" placeholder="37, Owodunni Street">
+                    <br><br>
+
+            <label for="telephone">Male</label>
+                <input type="text" name="telephone" value="+234">
+                    <br><br>
+
+            <label for="email:">Email: </label>
+                <input type="email" name="email">
+
+            <label for="course">Course: </label>
+            <select name="course">
+                <option value="Law">Law</option>
+                    <option value="Medicine">Medicine</option>
+                        <option value="Software Engineering">Software Engineering</option>
+                            <option value="History">History</option>
+                                <option value="AI">Artificial Intelligence</option>
+                                    <option value="otherCourse">Other Course</option>
+            </select>
+            <label for="otherCourse">Other Course:</label>
+                <input type="text" name="otherCourse">
+                    <br><br>
+
+            <section>
+                <button><b>Register</b></button>
+                <button><b>Cancel</b></button>
+            </section>
+        </form>
+        </body>
+</html>
