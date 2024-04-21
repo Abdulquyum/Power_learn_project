@@ -1,0 +1,1 @@
+This Folder was created to master file handling in python with its methods which include reth its methods which includes opening file, reading file, writing to file, apprehension to file, closing file with try and except blocks to handle errors
