@@ -1,0 +1,6 @@
+This is a text file
+It is located in this folder
+The folder is located in Room 103
+An additional statement1 is added
+Another new line 2
+The file will be finally closed
